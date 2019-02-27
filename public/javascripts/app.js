@@ -7,9 +7,9 @@ $(function() {
 
             /* please update this to your own slack webhook incoming url
             and the appropriate slack channel */
-            var slackWebhook = "https://hooks.slack.com/services/<unique_code>";
+            var slackWebhook = "https://ncchat.slack.com/services/<unique_code>";
 
-            var slackChannel = "customer_service";
+            var slackChannel = "ncchat";
 
 
             $('#connectForm').submit(function(e) {
